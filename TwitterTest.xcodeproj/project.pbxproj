@@ -15,10 +15,6 @@
 		59C061E51AC85BB800E085AB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 59C061E31AC85BB800E085AB /* LaunchScreen.xib */; };
 		59C061F11AC85BB900E085AB /* TwitterTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 59C061F01AC85BB900E085AB /* TwitterTestTests.m */; };
 		59C061FE1AC867A800E085AB /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59C061FD1AC867A800E085AB /* Social.framework */; };
-		59C062071AC88D2D00E085AB /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 59C062001AC88D2D00E085AB /* LICENSE */; };
-		59C062081AC88D2D00E085AB /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 59C062021AC88D2D00E085AB /* NSData+Base64.m */; };
-		59C062091AC88D2D00E085AB /* OAuth+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 59C062041AC88D2D00E085AB /* OAuth+Additions.m */; };
-		59C0620A1AC88D2D00E085AB /* OAuthCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 59C062061AC88D2D00E085AB /* OAuthCore.m */; };
 		59C0620C1AC8967D00E085AB /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59C0620B1AC8967D00E085AB /* Accounts.framework */; };
 		59C0620E1AC8968300E085AB /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59C0620D1AC8968300E085AB /* Twitter.framework */; };
 		59C062141AC8AEDF00E085AB /* Tweet.m in Sources */ = {isa = PBXBuildFile; fileRef = 59C062131AC8AEDF00E085AB /* Tweet.m */; };
@@ -50,13 +46,6 @@
 		59C061EF1AC85BB900E085AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		59C061F01AC85BB900E085AB /* TwitterTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwitterTestTests.m; sourceTree = "<group>"; };
 		59C061FD1AC867A800E085AB /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
-		59C062001AC88D2D00E085AB /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		59C062011AC88D2D00E085AB /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
-		59C062021AC88D2D00E085AB /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
-		59C062031AC88D2D00E085AB /* OAuth+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "OAuth+Additions.h"; sourceTree = "<group>"; };
-		59C062041AC88D2D00E085AB /* OAuth+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "OAuth+Additions.m"; sourceTree = "<group>"; };
-		59C062051AC88D2D00E085AB /* OAuthCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAuthCore.h; sourceTree = "<group>"; };
-		59C062061AC88D2D00E085AB /* OAuthCore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OAuthCore.m; sourceTree = "<group>"; };
 		59C0620B1AC8967D00E085AB /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
 		59C0620D1AC8968300E085AB /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
 		59C062121AC8AEDF00E085AB /* Tweet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Tweet.h; path = "OAuthCore-master/Tweet.h"; sourceTree = "<group>"; };
@@ -112,7 +101,6 @@
 		59C061D31AC85BB800E085AB /* TwitterTest */ = {
 			isa = PBXGroup;
 			children = (
-				59C061FF1AC88D2D00E085AB /* OAuthCore-master */,
 				59C061D81AC85BB800E085AB /* AppDelegate.h */,
 				59C061D91AC85BB800E085AB /* AppDelegate.m */,
 				59C062121AC8AEDF00E085AB /* Tweet.h */,
@@ -151,20 +139,6 @@
 				59C061EF1AC85BB900E085AB /* Info.plist */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		59C061FF1AC88D2D00E085AB /* OAuthCore-master */ = {
-			isa = PBXGroup;
-			children = (
-				59C062001AC88D2D00E085AB /* LICENSE */,
-				59C062011AC88D2D00E085AB /* NSData+Base64.h */,
-				59C062021AC88D2D00E085AB /* NSData+Base64.m */,
-				59C062031AC88D2D00E085AB /* OAuth+Additions.h */,
-				59C062041AC88D2D00E085AB /* OAuth+Additions.m */,
-				59C062051AC88D2D00E085AB /* OAuthCore.h */,
-				59C062061AC88D2D00E085AB /* OAuthCore.m */,
-			);
-			path = "OAuthCore-master";
 			sourceTree = "<group>";
 		};
 		B2944D3CAD8EE9EEC9C2E312 /* Frameworks */ = {
@@ -270,7 +244,6 @@
 			files = (
 				59C061E01AC85BB800E085AB /* Main.storyboard in Resources */,
 				59C061E51AC85BB800E085AB /* LaunchScreen.xib in Resources */,
-				59C062071AC88D2D00E085AB /* LICENSE in Resources */,
 				59C061E21AC85BB800E085AB /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -322,11 +295,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				59C062091AC88D2D00E085AB /* OAuth+Additions.m in Sources */,
 				59C061DD1AC85BB800E085AB /* ViewController.m in Sources */,
 				59C062141AC8AEDF00E085AB /* Tweet.m in Sources */,
-				59C062081AC88D2D00E085AB /* NSData+Base64.m in Sources */,
-				59C0620A1AC88D2D00E085AB /* OAuthCore.m in Sources */,
 				59C061DA1AC85BB800E085AB /* AppDelegate.m in Sources */,
 				59C061D71AC85BB800E085AB /* main.m in Sources */,
 			);
